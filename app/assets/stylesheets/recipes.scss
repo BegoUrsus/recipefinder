@@ -1,0 +1,50 @@
+// Place all the styles related to the RecipesController controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+
+* {
+	font-family: Arial, Helvetica, sans-serif;
+}
+
+h1 {
+	font-size: 2em;
+	font-weight: 900;
+	color: DarkGreen;
+}
+
+table {
+	border-collapse: collapse;
+	width:70%; 	
+    margin-left:15%; 
+    margin-right:15%;
+}
+
+th {
+	font-size: 1.2em;
+	font-style: italic;
+	background-color: DarkGreen;
+	color: white;
+}
+
+th, td {
+	padding: 12px;
+	text-align: center;
+}
+
+.even {
+	background-color: #D6E1C3;
+}
+
+a:link, a:visited {
+	text-decoration: none;
+	color: black;
+}
+
+a:hover, a:active {
+	cursor: pointer;
+}
+
+footer {
+	color: DarkGreen;
+	font-style: italic;
+}
